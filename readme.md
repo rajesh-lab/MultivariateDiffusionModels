@@ -16,7 +16,7 @@ pip install -e .
 
 This command will install the MDM source code as a python package.
 
-We use [Weights and Biases](https://wandb.ai/site) for monitoring experiments. To start, first create an account on WandB and enter you API key locally. 
+We use [Weights and Biases](https://wandb.ai/site) for monitoring experiments. To start, first create an account on WandB and enter your API key locally. 
 
 
 __Note__: This codebase relies on pytorch lightning. 
