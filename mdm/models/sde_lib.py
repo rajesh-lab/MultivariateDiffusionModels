@@ -295,7 +295,6 @@ class SDELib(pl.LightningModule):
             )
 
     def eps_pred(self, u: torch.Tensor, t_arr: torch.Tensor) -> torch.Tensor:
-        """Prevent mark from getting a headache"""
         hybrid = self.config.hybrid_transition_kernel
         if self.config.score_parameterization == "noise_pred":
             return self.deep_model(u, t_arr)
